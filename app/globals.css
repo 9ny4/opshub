@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-[#E5E7EB];
+  }
+  
+  body {
+    @apply bg-[#F9FAFB] text-[#111827];
+    font-family: Inter, system-ui, sans-serif;
+  }
+}
