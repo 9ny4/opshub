@@ -97,6 +97,20 @@ export const leads: Lead[] = [
   },
 ];
 
+export const addLead = (lead: Lead) => {
+  leads.unshift(lead);
+  return lead;
+};
+
+export const getNextLeadId = () => {
+  const max = leads.reduce((highest, lead) => {
+    const match = lead.id.match(/^L-(\d+)$/);
+    return match ? Math.max(highest, Number(match[1])) : highest;
+  }, 1000);
+
+  return `L-${max + 1}`;
+};
+
 export const orders: Order[] = [
   { 
     id: 'O-2001', 
