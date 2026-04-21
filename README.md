@@ -21,7 +21,12 @@ This project is intentionally presented as a clean, well-structured frontend sho
 
 ## Screenshots
 
-Placeholder screenshot area — images will be added later.
+![Dashboard](screenshots/dashboard.png)
+![Leads](screenshots/leads.png)
+![Orders](screenshots/orders.png)
+![Support](screenshots/support.png)
+![Automations](screenshots/automations.png)
+![Settings](screenshots/settings.png)
 
 ## Getting started
 
