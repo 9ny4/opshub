@@ -1,31 +1,47 @@
 # OpsHub
 
-OpsHub is a polished operations dashboard for small businesses, freelancers, and agencies.
+OpsHub is a frontend prototype for a small-business operations dashboard — built to demonstrate UI architecture, component design, and responsive layout with Next.js and Tailwind.
 
-## Goal
-Showcase a client-ready internal tool with dashboard UX, workflows, and business automation.
+This project is intentionally presented as a clean, well-structured frontend showcase, not a production-ready product. It includes mock data, placeholder interactions, and API routes that return sample responses to illustrate how a full build could be organized.
 
-## Planned modules
-- Dashboard overview
-- Leads
-- Orders
-- Support
-- Automations
-- Settings
-- Audit logs
+## Pages
 
-## Stack
-- Next.js
+- **Dashboard** — KPI cards and an activity feed
+- **Leads management**
+- **Orders tracking**
+- **Support tickets**
+- **Automations**
+- **Settings**
+
+## Tech stack
+
+- Next.js 14
 - TypeScript
-- CSS
-- FastAPI backend later
-- PostgreSQL
+- Tailwind CSS
 
-## Workflow
-This repo follows conventional commits and a branch-based GitHub workflow.
+## Screenshots
 
-## Status
-- Repo initialized
-- Base app shell created
-- Non-UI foundation in progress
-- UI design delegated separately
+Placeholder screenshot area — images will be added later.
+
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open:
+
+```bash
+http://localhost:3000
+```
+
+## Data and API behavior
+
+- API routes return mock/sample data
+- UI behavior is based on demo interactions and placeholder content
+- The app is meant to show what a full operations dashboard build could look like
+
+## License
+
+MIT
